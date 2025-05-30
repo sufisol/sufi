@@ -10,7 +10,6 @@ import time
 st.set_page_config(layout="wide")
 st.image("https://review.ibanding.com/company/1532441453.jpg", caption="Pekan Hospital", use_container_width=True)
 st.title("Pekan Hospital")
-st.write(st.secrets)  
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
