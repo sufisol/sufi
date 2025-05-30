@@ -1,4 +1,5 @@
 streamlit
-gepread
-oauth2client
+gspread
+google-auth
 pandas
+pytz
