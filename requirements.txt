@@ -1,0 +1,4 @@
+streamlit
+gepread
+oauth2client
+pandas
