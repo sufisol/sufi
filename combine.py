@@ -1,14 +1,14 @@
-import streamlit as st
-import gspread
-from google.oauth2.service_account import Credentials
+import streamlit as st # type: ignore
+import gspread # type: ignore
+from oauth2client.service_account import ServiceAccountCredentials  # type: ignore
 from datetime import datetime
-import pandas as pd
-import pytz
+import pandas as pd # type: ignore
+import pytz # type: ignore
 import time
 
 # Set up the Streamlit page
 st.set_page_config(layout="wide")
-st.image("https://review.ibanding.com/company/1532441453.jpg", caption="Pekan Hospital", use_container_width=True)
+st.image("https://review.ibanding.com/company/1532441453.jpg", caption="Pekan Hospital")
 st.title("Pekan Hospital")
 
 # Sidebar Navigation
@@ -16,16 +16,17 @@ st.sidebar.title("Navigation")
 menu = st.sidebar.radio("Menu", ["Register Patient 🤒", "Edit/Delete Patient 📝", "Visitor Log 🧑‍⚕️"])
 
 # Authenticate with Google Sheets
-scope = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
-creds_dict = st.secrets["google_sheets"]
-creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds = ServiceAccountCredentials.from_json_keyfile_name(
+    "data/golden-bloom-460608-b3-5f8904b942a0.json", scope)
 client = gspread.authorize(creds)
 
 # Open the spreadsheet and get worksheets
-main_sheet = client.open("Patient")
+sheet_id = "19ZdiQ9e8jdi-2ZMbbpbKn8QkxvKD7wrxz926SvCiEzY" 
+main_sheet = client.open_by_key(sheet_id)
 patient_ws = main_sheet.worksheet("Patient")
 previous_patient_ws = main_sheet.worksheet("Previous Patient")
-visitor_ws = main_sheet.worksheet("Visitors")
+visitor_ws = main_sheet.worksheet("Visitor")
 availability_ws = main_sheet.worksheet("Availability")
 
 def get_time():
