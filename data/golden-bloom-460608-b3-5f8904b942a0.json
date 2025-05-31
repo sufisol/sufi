@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "golden-bloom-460608-b3",
+  "private_key_id": "5f8904b942a087fdd80b81957524a2763fba19fa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCq3f7plaKMlpW6\nb5wtgoJGMbt5oRbt1gyWafdZV/HC7PSEKNJa/qzDeQ5ReFh5lYbA3ljM4hyeb+jt\ndbs5HAmHJrlpQJ4BQQ0cxG4NkH4cQksHaaZR+QCBabGc/cI4sr6knlJvX39GBO9B\n75NG9zgDztGqQNWFxCCDu0yc3yXfrIzC3aRCCjmTI8iLfNF0PRXKDR+ZmbZxIVmk\nebbwvm3Fms7c71Cry5Snc8yt38KdOoIYhg7xs+ZIVFQtqE4XBlxRNkIBe1DEB99F\nGw83IefvgTICCzRrlesM9NAticHHvDNBIg0xFCZUCd2fSqChKWQy+pkMWNCbcPVL\ntBX2wqnTAgMBAAECggEAC0Q1Cgjitw6gBv/tL93SbwRARNfxQs07Q9jvEgla+LJJ\nuZC8tUd92iu+wz91fs4NtktS8DuBwJUUQ9tGwfbBaBOoSrJ6JXU5HJ1h7+uhoFJj\nHE63XhTv/bIbuVEzWV+Fc4xSI8oLtddSDipyYk3SkZzom6dhWbJVCuqZAogyOQPN\n9VVATOCub5pcZBotR5jdHhILvrzVZjmg/68/lMS04MYlVsT/7elnQKNvMCUcU98p\nfxgpHIlvaT/VeQwwegdT5xSfcHvM0/qQOiiZtCSJEm180MO1H1WzIB2OavfCS62a\nIC/ZefMJ21M5kM9Yg9EuEg0EHFvZFDzcaxeQkZvqGQKBgQDSZQUB2bqA+BnVVdTV\nXXtaGYcNKuMrMHHavPI2Ip9NNUIXf+GKtnz9W3GkwZbpyV2ZsymMu0Zk3qLK2/k2\n4jOItDkpYkfl1RYagG2HUeo7GUa0GXbxzJw2uTX0C21ZzT8iRMXcP5c5itwzcMjv\naC/kj8+aYtHIbMtaDKPpKfGo+QKBgQDP55Bw2a1JRiz615IjNqZYUOFu50VItAtx\nZAEuYCoPd8ogllN9GLUud3sGUQlaiCWldKj4oWWx1PEHsanJf4/w8XQd8P4/cgvU\nHc4Rh0gtzr+p/Kqi8e+Qi15P6cwkYb2WAdRe2wFGnyjWTvzuRebBXSnDy6WlTBlw\nGQBmvV+IKwKBgBeWEZiigwEAT00WQTTmNPTl1bkJLMxjsu/VrMWa3gb2yID/6hX1\n3U892CCjPzrYQzD+39KSEBMwzkk1ndukQii6I4pbJTpDyCWSbjT0XvDfJYj9LdNv\nn7eWzdCdE1Y05zX9Rb0qN9bQlV0C8NO991iFMr3ZBDGW2Lkwn5N9C0VpAoGBAKof\nRw9A3840sTu1SCyuXGGqFT3F2ujKAw8PEPRc1i4ADJKrz7duj1ttg2rAxtGg1IVW\nN6nzj557q5trIo7yZdt4CFczyygpb0pr9SJcu5BYPHehfBOHu0tg75SesGAY5qSn\n7JqNxLaAKE9tJQToiBEz5agErQ/cfHhAzRZE4bYvAoGAArPwQs5PvmuFZUTfwDej\nE9h6S1BBSep4r9eV91/1wSK3+RV47sir2C9PZEkwt8pFzPsebRZh4yJJjPAZxnzo\n6avjzUV6NJsIodikT7CxqXtD6Rs9Kq1DYqyCBvq3PiIpnggwlNeP3mbMsms86jJW\nuZCkJAhFhpIqPhCXzVyiZi0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hospitalpekanmanagementsys@golden-bloom-460608-b3.iam.gserviceaccount.com",
+  "client_id": "106480731823903931672",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hospitalpekanmanagementsys%40golden-bloom-460608-b3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
